@@ -1,4 +1,4 @@
-# Irish Rail Wrappers
+# Irish Rail Node
 
 Small collection of NodeJS applications that make use of [Irish Rail API](http://api.irishrail.ie/realtime/)
 
