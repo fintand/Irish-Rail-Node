@@ -1,7 +1,4 @@
-import DataLoader from 'dataloader';
-
 import express from 'express';
-import fetch from 'node-fetch';
 import graphqlHTTP from 'express-graphql';
 import schema from './schema';
 
@@ -23,6 +20,6 @@ app.use(graphqlHTTP({
 }));
 
 app.listen(
-  5000,
-  () => console.log('GraphQL Server running at http://localhost:5000')
+  5001,
+  () => console.log('GraphQL Server running at http://localhost:5001')
 );

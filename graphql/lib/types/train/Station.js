@@ -37,4 +37,4 @@ exports.Station = new GraphQLObjectType({
       resolve: station => station.StationId.toString() || ""
     },
   })
-})
+});

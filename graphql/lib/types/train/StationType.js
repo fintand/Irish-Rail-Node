@@ -7,4 +7,4 @@ exports.StationType = new GraphQLEnumType({
     SUBURBAN: { value: 'S' },
     DART: { value: 'D' }
   }
-})
+});
